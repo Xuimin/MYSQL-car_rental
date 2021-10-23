@@ -1,0 +1,55 @@
+/* ALL */
+* {
+    font-family: 'sogoe print';
+    font-family: 'Kalam';
+}
+
+/* FORM Label color */
+label.active {
+    color: rebeccapurple !important;
+}
+
+/* FORM input line color */
+input:focus {
+    border-bottom: 1px solid lightpink !important;
+    box-shadow: 0 1px 0 0 lightpink !important;
+}
+.input-field input[type=text].valid {
+    border-bottom: 1px solid lightpink !important;
+    box-shadow: 0 1px 0 0 lightpink !important;
+}
+
+/* FORM option font color */
+.select-wrapper .select-dropdown span {
+    color: violet !important;
+}
+.select-wrapper .select-dropdown .selected span{
+    color: purple !important;
+}
+
+/* POST image alignment */
+.card-image {
+    display: flex;
+    overflow-x: scroll;
+    height: 250px;
+}
+.card-image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* ALL BUTTON COLOR */
+button.btn {
+    background-color: #f48fb1;
+}
+button.btn:hover {
+    background-color: #f8bbd0;
+}
+
+/* ALL LINK COLOR */
+a.btn {
+    background-color: #f48fb1;
+}
+a.btn:hover {
+    background-color: #f8bbd0;
+}
